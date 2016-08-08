@@ -22,6 +22,5 @@ class CreatePictoTagTable extends Migration
      */
     public function down()
     {
-        Schema::drop('picto_tag');
     }
 }

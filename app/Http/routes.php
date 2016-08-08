@@ -15,7 +15,3 @@ Route::get('/', 'PagesController@welcome' );
 Route::post('/', 'PagesController@welcome' );
 
 
-Route::get('picto/{tag}', 'PictoController@getByTag' );
-
-Route::post('picto', 'PictoController@search');
-Route::post('tag', 'TagController@store' );
