@@ -1,0 +1,39 @@
+/**
+ * Main CSS File
+ *
+ * @package Quicto
+ * @since 2016
+ */
+
+//Bourbon and Neat:
+@import 'node_modules/bourbon/app/assets/stylesheets/_bourbon';
+@import 'node_modules/bourbon-neat/app/assets/stylesheets/_neat';
+
+//Mixins and Variables styling:
+@import 'base/_mixins';
+@import 'base/_variables';
+
+//Vendor styling:
+@import 'vendors/_normalize';
+
+//Base styling:
+@import 'base/_grid';
+@import 'base/_typography';
+@import 'base/_ui';
+
+//Layout styling:
+@import 'layout/_general';
+@import 'layout/_nav';
+@import 'layout/_header';
+@import 'layout/_footer';
+
+//Components styling:
+
+//Pages styling:
+@import 'pages/_search';
+
+//Responsive:
+@import 'responsive/_base';
+@import 'responsive/_components';
+@import 'responsive/_layout';
+@import 'responsive/_pages';

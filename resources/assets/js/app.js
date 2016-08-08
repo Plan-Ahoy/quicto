@@ -1,0 +1,3 @@
+
+	var Flickity = require( 'flickity' );
+

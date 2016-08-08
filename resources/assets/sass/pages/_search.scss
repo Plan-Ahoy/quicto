@@ -1,0 +1,67 @@
+.picto-form{
+	position:relative;
+	display:block;
+	max-width:70%;
+	margin-left:30%;
+
+	input{
+		@include transition( .3s );
+		vertical-align:middle;
+		font-size:rem( 38px );
+		padding:15px 30px;
+		background:$white;
+		border:2px solid #ccc;
+		border-radius:10px;
+		box-shadow:2px 2px 4px rgba(0,0,0,.3);
+		width:100%;
+		color:$lightBlue;
+
+		@include placeholder(){
+			color:#ccc
+		}
+
+		&:focus{
+			@include placeholder(){
+				color:#f8f8f8;
+			}
+
+			outline:none;
+			box-shadow:3px 3px 7px rgba(0,0,0,.5);
+			margin:-2px 0 0 -2px;
+		}
+	}
+
+	.search-btn{
+		@include transition( .3s );
+		position:absolute;
+		right:25px;
+		top:20px;
+		background:url('../images/search.svg');
+		background-size:44px 44px;
+		opacity:.3;
+		display:block;
+		width:44px;
+		height:44px;
+		cursor:pointer;
+
+		&:hover{
+			opacity:.7;
+		}
+	}
+
+	input:focus + .search-btn{
+		opacity:.5;
+		margin:-2px 0 0 -2px;
+	}
+
+}
+
+.testpicto{
+	display:block;
+	margin:100px auto;
+	border:10px solid #fff;
+	box-shadow:0 0 10px rgba(0,0,0,.2);
+	border-radius:15px;
+	width:450px;
+	height:450px;
+}

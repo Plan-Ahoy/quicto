@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/quicto":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/quicto","hostpath":"/Users/luc/Documents/Quicto","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/luc/Documents/Quicto","disabled":false,"__vagrantfile":true}}}

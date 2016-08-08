@@ -1,0 +1,38 @@
+/**
+ * UI CSS
+ * Buttons, links, etc.
+ *
+ * @package Quicto
+ * @since 2016
+ */
+
+.button, .button:visited{
+	@include transition(.3s);
+	padding: 12px 14px;
+	background: $firstColor;
+	display: inline-block;
+	outline: none;
+	border: none;
+	color: $white;
+	text-decoration: none;
+	line-height: 145%;
+	text-shadow: none;
+	border-radius: $border-radius;
+	cursor: pointer;
+	
+	&:hover{
+		background: darken($firstColor, 10%);
+		color: $white;
+	}
+
+}
+
+.btn, a[class^="btn--"]{
+	@extend .button;
+}
+
+a, a:visited{
+	color: $black;
+	@include transition(.3s);
+	text-decoration: underline;
+}

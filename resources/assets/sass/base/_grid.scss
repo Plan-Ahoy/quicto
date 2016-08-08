@@ -1,0 +1,10 @@
+/**
+ * Grid styling 
+ *
+ * @package Quicto
+ * @since 2016
+ */
+
+.container{
+	@include outer-container();
+}

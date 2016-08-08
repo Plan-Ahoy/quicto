@@ -1,0 +1,40 @@
+/**
+ * Base typography
+ *
+ * @package Quicto
+ * @since 2016
+ */
+
+h1,h2,h3,h4,h5,h6{
+	color: $font-color;
+	font-family: $head-stack;
+	line-height: 135%;
+}
+
+p, a, span, ol, ul, li, strong, em, i, b, big, small, tt, abbr, acronym, 
+cite, code, dfn, em, kbd, samp, var, br, sub, sup, button, input, label,
+select, textarea{
+	color: $font-color;
+	font-family: $font-stack;
+	line-height: 135%;
+}
+
+
+h1{
+	font-size: rem( 30px );
+}
+h2{
+	font-size: rem( 24px );
+}
+h3{
+	font-size: rem( 20px );
+}
+h4{
+	font-size: rem( 18px );
+}
+h5{
+	font-size: rem( 16px );
+}
+h6{
+	font-size: rem( 14px );
+}
